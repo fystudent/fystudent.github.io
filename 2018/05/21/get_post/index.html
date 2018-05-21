@@ -79,17 +79,17 @@
 
 
 
-<meta name="description" content="HTTP协议中的get和post方法的的区别 HHTTP协议中get和post方法的区别是一个老生常谈的话题，之前对此只是有很浅显的理解，今天我们来认真，详细的了解一下。 get和post的长度限制 get是通过URL提交数据，以？分割URL和传输数据，参数之间以&amp;amp;相连，如果数据是英文字母/数字，原样发送，如果是空格，转换为+，如果是中文/其他字符，则直接把字符串用BASE64编码。因此g">
+<meta name="description" content="HHTTP协议中get和post方法的区别是一个老生常谈的话题，之前对此只是有很浅显的理解，今天我们来认真，详细的了解一下。 get和post的长度限制 get是通过URL提交数据，以？分割URL和传输数据，参数之间以&amp;amp;相连，如果数据是英文字母/数字，原样发送，如果是空格，转换为+，如果是中文/其他字符，则直接把字符串用BASE64编码。因此get可提交的数据就跟YRL所能达到的最大长度有">
 <meta property="og:type" content="article">
-<meta property="og:title" content="fyStudent">
+<meta property="og:title" content="HTTP协议中的get和post方法的的区别">
 <meta property="og:url" content="http://yoursite.com/2018/05/21/get_post/index.html">
 <meta property="og:site_name" content="fyStudent">
-<meta property="og:description" content="HTTP协议中的get和post方法的的区别 HHTTP协议中get和post方法的区别是一个老生常谈的话题，之前对此只是有很浅显的理解，今天我们来认真，详细的了解一下。 get和post的长度限制 get是通过URL提交数据，以？分割URL和传输数据，参数之间以&amp;amp;相连，如果数据是英文字母/数字，原样发送，如果是空格，转换为+，如果是中文/其他字符，则直接把字符串用BASE64编码。因此g">
+<meta property="og:description" content="HHTTP协议中get和post方法的区别是一个老生常谈的话题，之前对此只是有很浅显的理解，今天我们来认真，详细的了解一下。 get和post的长度限制 get是通过URL提交数据，以？分割URL和传输数据，参数之间以&amp;amp;相连，如果数据是英文字母/数字，原样发送，如果是空格，转换为+，如果是中文/其他字符，则直接把字符串用BASE64编码。因此get可提交的数据就跟YRL所能达到的最大长度有">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-05-21T07:28:31.226Z">
+<meta property="og:updated_time" content="2018-05-21T07:36:53.650Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="fyStudent">
-<meta name="twitter:description" content="HTTP协议中的get和post方法的的区别 HHTTP协议中get和post方法的区别是一个老生常谈的话题，之前对此只是有很浅显的理解，今天我们来认真，详细的了解一下。 get和post的长度限制 get是通过URL提交数据，以？分割URL和传输数据，参数之间以&amp;amp;相连，如果数据是英文字母/数字，原样发送，如果是空格，转换为+，如果是中文/其他字符，则直接把字符串用BASE64编码。因此g">
+<meta name="twitter:title" content="HTTP协议中的get和post方法的的区别">
+<meta name="twitter:description" content="HHTTP协议中get和post方法的区别是一个老生常谈的话题，之前对此只是有很浅显的理解，今天我们来认真，详细的了解一下。 get和post的长度限制 get是通过URL提交数据，以？分割URL和传输数据，参数之间以&amp;amp;相连，如果数据是英文字母/数字，原样发送，如果是空格，转换为+，如果是中文/其他字符，则直接把字符串用BASE64编码。因此get可提交的数据就跟YRL所能达到的最大长度有">
 
 
 
@@ -125,7 +125,7 @@
 
 
 
-  <title> | fyStudent</title>
+  <title>HTTP协议中的get和post方法的的区别 | fyStudent</title>
   
 
 
@@ -262,7 +262,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline"></h1>
+          <h1 class="post-title" itemprop="name headline">HTTP协议中的get和post方法的的区别</h1>
         
 
         <div class="post-meta">
@@ -312,7 +312,7 @@
       
 
       
-        <h1 id="HTTP协议中的get和post方法的的区别"><a href="#HTTP协议中的get和post方法的的区别" class="headerlink" title="HTTP协议中的get和post方法的的区别"></a>HTTP协议中的get和post方法的的区别</h1><p> HHTTP协议中get和post方法的区别是一个老生常谈的话题，之前对此只是有很浅显的理解，今天我们来认真，详细的了解一下。</p>
+        <p>HHTTP协议中get和post方法的区别是一个老生常谈的话题，之前对此只是有很浅显的理解，今天我们来认真，详细的了解一下。</p>
 <h2 id="get和post的长度限制"><a href="#get和post的长度限制" class="headerlink" title="get和post的长度限制"></a>get和post的长度限制</h2><ol>
 <li>get是通过URL提交数据，以？分割URL和传输数据，参数之间以&amp;相连，如果数据是英文字母/数字，原样发送，如果是空格，转换为+，如果是中文/其他字符，则直接把字符串用BASE64编码。因此get可提交的数据就跟YRL所能达到的最大长度有直接关系。但是实际上HTTP协议对URL长度是没有限制的，限制URL长度大多数是浏览器或者服务器的配置参数。</li>
 <li>post把提交的数据放置在HTTP包的包体中。理论上post也是没有大小限制的，HTTP协议规范也没有进行大小限制，但在服务端通常会对这个大小做一个限制，当然这个限制比GET宽松的多，即使用POST可以提交的数据量比GET大得多.    </li>
@@ -475,7 +475,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#HTTP协议中的get和post方法的的区别"><span class="nav-number">1.</span> <span class="nav-text">HTTP协议中的get和post方法的的区别</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#get和post的长度限制"><span class="nav-number">1.1.</span> <span class="nav-text">get和post的长度限制</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#get和post的安全性问题"><span class="nav-number">1.2.</span> <span class="nav-text">get和post的安全性问题</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#get和post对服务器的状态"><span class="nav-number">1.3.</span> <span class="nav-text">get和post对服务器的状态</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#get和post的长度限制"><span class="nav-number">1.</span> <span class="nav-text">get和post的长度限制</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#get和post的安全性问题"><span class="nav-number">2.</span> <span class="nav-text">get和post的安全性问题</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#get和post对服务器的状态"><span class="nav-number">3.</span> <span class="nav-text">get和post对服务器的状态</span></a></li></ol></div>
             
 
           </div>
